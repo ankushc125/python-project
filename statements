@@ -1,0 +1,54 @@
+#using if statement
+
+#eligibility of voting
+
+a=int(input("enter the age : "))
+if a >= 18:
+    print(" you are voter ") #use TAB key after every if and else statement (:)
+else: 
+    print("you are under age ")
+
+
+
+#Check Even or Odd
+a=int(input("enter the number:-"))
+if a%2 == 0:
+    print("thye number is even")
+else:
+    print("the number is odd")
+
+#Check Grade
+a=int(input("the grade :- "))
+if  a>=90:
+    print("your grade is - A+")
+elif a>80:
+    print("your grade is - A")
+elif a>=50:
+    print("your grade is - B")
+elif a>=40:
+    print("the grade is c")
+else:
+    print("you are fail")
+
+
+#practical programming examples using the range() function in Python:{range(start, stop, step)}
+
+#""Printing Numbers from 1 to 10""
+
+for i in range(1,10):
+    print(i)
+#print the numbers between 10-20 but except the number 12,16
+for i in range (10,20):
+    if i==12 or i==16:
+        continue
+    print(i)
+
+#Printing Even Numbers Between 1 and 20
+
+for i in range(2,20,2): #(it start with the 2 because the even number start with number and then afer 2 the value is 4 so the d/w is "2")
+  print(i)
+
+#Printing odd Numbers Between 1 and 20
+
+for i in range(1,20,2):  #(it start with the 1 because the odd number start with number and then afer 2 the value is 3 so the d/w is "2")
+    print(i)
