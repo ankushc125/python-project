@@ -1,0 +1,37 @@
+import math
+#the area calculation of circle 
+r=int(input("Enter the value of radious :")) 
+area=math.pi*r**2  # (**" used for power of any number)
+print("area is =", area)
+
+#the area calculation of a square 
+w=int(input("Enter the value of side: width = ")) 
+h=int(input("Enter the value of side : height =")) 
+l=int(input("Enter the value of side length = ")) 
+area=w*h*l 
+print("area is =", area)
+
+#the area calculation of cube
+s=int(input("Enter the value of side : ")) 
+area=6*s**2 
+print("area is =", area) 
+
+#the area calculation of right angle (90*)
+w=int(input("Enter the value of base : ")) 
+h=int(input("Enter the value of height : ")) 
+area=(1/2)*w*h 
+print("area is =", area) 
+
+#the area calculation of triangle 
+w=int(input("Enter the value of side : width = ")) 
+h=int(input("Enter the value of side : height = ")) 
+l=int(input("Enter the value of side : length = ")) 
+area=2*(l*h+l*w+w*h) 
+print("area is =", area)
+
+#the area calculation of trapezoid 
+a=int(input("Enter the value : area = ")) 
+w=int(input("Enter the value : width = ")) 
+h=int(input("Enter the value : height = ")) 
+area=(a+w)/2*h 
+print("area is =", area)
