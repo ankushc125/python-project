@@ -1,0 +1,9 @@
+# meter to km (1 kilometer = 1000 meters)
+d= float(input("enter the distance in meter"))
+c= float(d/1000)
+print("the km distance",c)
+
+#Area Conversion (Square Meters to Square Feet) 1 sq meter = 10.764 sq feet
+area=float(input("the area in sq meters :"))
+c=float(area*10.764)
+print("the convertion of the area in sq feet : ", c)
