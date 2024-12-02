@@ -1,0 +1,8 @@
+my_dict={
+    "location":["pune","bengalore","ujjain", "jaipur"],
+    "state":["maharsatra","karantaka","mp","rajasthan"],
+     "gender":["male","female", "male","female"],
+     "age":["66","56","46","60"]
+}
+
+print(my_dict.items())
