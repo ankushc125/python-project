@@ -1,0 +1,9 @@
+p="pune is good city"
+
+
+
+change=p.replace("pune","kolkata")
+print(change)
+print(p.capitalize())
+print(p.lower())
+print(p.upper())
